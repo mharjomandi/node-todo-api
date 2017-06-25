@@ -1,0 +1,343 @@
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm -i mangoose --save
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, bin, bugs, c, cache, completion, config,
+    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,
+    help, help-search, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, tag, team, test, tst, un, uninstall,
+    unpublish, unstar, up, update, v, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\MohammadHomam\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@3.10.10 C:\Program Files\nodejs\node_modules\npm
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm i mangoose --save
+npm ERR! Windows_NT 10.0.15063
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "mangoose" "--save"
+npm ERR! node v6.10.3
+npm ERR! npm  v3.10.10
+npm ERR! code E404
+
+npm ERR! 404 Registry returned 404 for GET on https://registry.npmjs.org/mangoose
+npm ERR! 404
+npm ERR! 404  'mangoose' is not in the npm registry.
+npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+npm ERR! 404
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\npm-debug.log
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module 'mongoose'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:1:78)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm i mongoose --save
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+`-- mongoose@4.11.0
+  +-- async@2.1.4
+  | `-- lodash@4.17.4
+  +-- hooks-fixed@2.0.0
+  +-- kareem@1.4.1
+  +-- mongodb@2.2.27
+  | `-- mongodb-core@2.1.11
+  +-- mpath@0.3.0
+  +-- mpromise@0.5.5
+  +-- mquery@2.3.1
+  | +-- bluebird@2.10.2
+  | +-- debug@2.6.8
+  | `-- sliced@0.0.5
+  +-- ms@2.0.0
+  +-- muri@1.2.1
+  +-- regexp-clone@0.0.1
+  `-- sliced@1.0.1
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:270420) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Saved todo { __v: 0, text: 'Cook dinner', _id: 594fc4ec40c9ae2058e30fd6 }
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:264792) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+{
+  "__v": 0,
+  "text": "Feed the cat",
+  "completed": true,
+  "completedAt": 123,
+  "_id": "594fc5558a19c00a5c33d3d6"
+}
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:271120) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+{
+  "__v": 0,
+  "text": "Feed the cat",
+  "completed": true,
+  "completedAt": 123,
+  "_id": "594fc564712e0a23149fb95d"
+}
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:6
+var toySchema = new Schema({
+                    ^
+
+ReferenceError: Schema is not defined
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:6:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:39
+  Toy.schema.path('color').validate(validator,
+  ^
+
+ReferenceError: Toy is not defined
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:39:3)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:39
+  Toy.schema.path('color').validate(validator,
+  ^
+
+ReferenceError: Toy is not defined
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:39:3)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:39
+toySchema.schema.path('color').validate(validator,
+                ^
+
+TypeError: Cannot read property 'path' of undefined
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:39:17)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:32
+  color: string;
+               ^
+SyntaxError: Unexpected token ;
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:32
+  color: string
+         ^
+
+ReferenceError: string is not defined
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:32:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:33
+    type: string
+          ^
+
+ReferenceError: string is not defined
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:33:11)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:42
+toySchema.schema.path('color').validate(validator,
+                ^
+
+TypeError: Cannot read property 'path' of undefined
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:42:17)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:45
+toySchema.schema.path('color').validate(validator,
+                ^
+
+TypeError: Cannot read property 'path' of undefined
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:45:17)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:265920) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Unable to save todo
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:263752) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Unable to save todo { ValidationError: Todo validation failed: phone: User phone number required
+    at MongooseError.ValidationError.inspect (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\lib\error\validation.js:57:23)
+    at formatValue (util.js:349:36)
+    at inspect (util.js:183:10)
+    at exports.format (util.js:127:20)
+    at Console.log (console.js:43:37)
+    at newTodo.save.then (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:51:11)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+    at Module.runMain (module.js:606:11)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+  errors:
+   { phone:
+      { ValidatorError: User phone number required
+          at MongooseError.ValidatorError (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\lib\error\validator.js:24:11)
+          at validate (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\lib\schematype.js:754:13)
+          at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\lib\schematype.js:801:11
+          at Array.forEach (native)
+          at SchemaString.SchemaType.doValidate (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\lib\schematype.js:761:19)
+          at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\lib\document.js:1474:9
+          at _combinedTickCallback (internal/process/next_tick.js:73:7)
+          at process._tickCallback (internal/process/next_tick.js:104:9)
+          at Module.runMain (module.js:606:11)
+          at run (bootstrap_node.js:390:7)
+          at startup (bootstrap_node.js:150:9)
+          at bootstrap_node.js:505:3
+        message: 'User phone number required',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'phone',
+        value: undefined,
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Todo validation failed',
+  name: 'ValidationError' }
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:266824) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Unable to save todo { MongoError: E11000 duplicate key error collection: TodoApp.todos index: text_1 dup key: { : "Cook dinner" }
+    at Function.MongoError.create (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\node_modules\mongodb-core\lib\error.js:31:11)
+    at toError (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\node_modules\mongodb\lib\utils.js:139:22)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\node_modules\mongodb\lib\collection.js:669:23
+    at handleCallback (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\node_modules\mongodb\lib\utils.js:120:56)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\node_modules\mongodb\lib\bulk\unordered.js:465:9
+    at handleCallback (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\node_modules\mongodb\lib\utils.js:120:56)
+    at resultHandler (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\node_modules\mongodb\lib\bulk\unordered.js:413:5)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+  name: 'MongoError',
+  message: 'E11000 duplicate key error collection: TodoApp.todos index: text_1 dup key: { : "Cook dinner" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: TodoApp.todos index: text_1 dup key: { : "Cook dinner" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function] }
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:243520) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Saved todo { __v: 0,
+  text: 'Cook dinner ccc',
+  _id: 594fcbcdca3f5eb7433609f1,
+  completedAt: 6,
+  completed: false }
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>

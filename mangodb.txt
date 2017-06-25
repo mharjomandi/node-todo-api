@@ -1,0 +1,736 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\MohammadHomam>cd C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (node-todo-api)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\package.json:
+
+{
+  "name": "node-todo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) yes
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm install mongodb --save
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+`-- mongodb@2.2.29
+  +-- es6-promise@3.2.1
+  +-- mongodb-core@2.1.13
+  | +-- bson@1.0.4
+  | `-- require_optional@1.0.1
+  |   +-- resolve-from@2.0.0
+  |   `-- semver@5.3.0
+  `-- readable-stream@2.2.7
+    +-- buffer-shims@1.0.0
+    +-- core-util-is@1.0.2
+    +-- inherits@2.0.3
+    +-- isarray@1.0.0
+    +-- process-nextick-args@1.0.7
+    +-- string_decoder@1.0.3
+    | `-- safe-buffer@5.1.1
+    `-- util-deprecate@1.0.2
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+[
+  {
+    "text": "Something to do",
+    "completed": false,
+    "_id": "594ee4df63c3bcfb77721254"
+  }
+]
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+[
+  {
+    "text": "Something to do",
+    "completed": false,
+    "_id": "594ee55b254c1aeeab5ea250"
+  }
+]
+[ { name: 'Andrew',
+    age: 25,
+    location: 'Philadelphia',
+    _id: 594ee55b254c1aeeab5ea251 } ]
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+[
+  {
+    "text": "Something to do",
+    "completed": false,
+    "_id": "594ee652219bd5f92f951821"
+  }
+]
+[ { _id: 111, name: 'Andrew', age: 25, location: 'Philadelphia' } ]
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+[
+  {
+    "text": "Something to do",
+    "completed": false,
+    "_id": "594ee6c3fbef9eccff81c091"
+  }
+]
+594ee6c3fbef9eccff81c092
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+[
+  {
+    "text": "Something to do",
+    "completed": false,
+    "_id": "594ee6fa1d973cec7b794391"
+  }
+]
+2017-06-24T22:26:02.000Z
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+[
+  {
+    "text": "Something to do",
+    "completed": false,
+    "_id": "594ee7835bdbb6fadf99ed93"
+  }
+]
+2017-06-24T22:28:19.000Z
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+[
+  {
+    "text": "Something to do",
+    "completed": false,
+    "_id": "594ee95aecd8bcf157c6371f"
+  }
+]
+2017-06-24T22:36:10.000Z
+Todos
+[
+  {
+    "_id": "594ee4df63c3bcfb77721254",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee55b254c1aeeab5ea250",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee652219bd5f92f951821",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee6c3fbef9eccff81c091",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee6fa1d973cec7b794391",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee7835bdbb6fadf99ed93",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee95aecd8bcf157c6371f",
+    "text": "Something to do",
+    "completed": false
+  }
+]
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+[
+  {
+    "text": "Something to do",
+    "completed": true,
+    "_id": "594ee9c3a8ff8cd22b691838"
+  }
+]
+Todos
+[
+  {
+    "_id": "594ee9c3a8ff8cd22b691838",
+    "text": "Something to do",
+    "completed": true
+  }
+]
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+[
+  {
+    "text": "Something to do",
+    "completed": true,
+    "_id": "594eea327d103788afe4c646"
+  }
+]
+Todos
+[
+  {
+    "_id": "594ee9c3a8ff8cd22b691838",
+    "text": "Something to do",
+    "completed": true
+  },
+  {
+    "_id": "594eea327d103788afe4c646",
+    "text": "Something to do",
+    "completed": true
+  }
+]
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+Todos
+[
+  {
+    "_id": "594ee9c3a8ff8cd22b691838",
+    "text": "Something to do",
+    "completed": true
+  },
+  {
+    "_id": "594eea327d103788afe4c646",
+    "text": "Something to do",
+    "completed": true
+  },
+  {
+    "_id": "594eea760f2195f0abc4e6fa",
+    "text": "Something to do",
+    "completed": true
+  }
+]
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+Todos
+[
+  {
+    "_id": "594ee4df63c3bcfb77721254",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee55b254c1aeeab5ea250",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee652219bd5f92f951821",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee6c3fbef9eccff81c091",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee6fa1d973cec7b794391",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee7835bdbb6fadf99ed93",
+    "text": "Something to do",
+    "completed": false
+  },
+  {
+    "_id": "594ee95aecd8bcf157c6371f",
+    "text": "Something to do",
+    "completed": false
+  }
+]
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+Todos
+[
+  {
+    "_id": "594ee9c3a8ff8cd22b691838",
+    "text": "Something to do",
+    "completed": true
+  },
+  {
+    "_id": "594eea327d103788afe4c646",
+    "text": "Something to do",
+    "completed": true
+  },
+  {
+    "_id": "594eea760f2195f0abc4e6fa",
+    "text": "Something to do",
+    "completed": true
+  },
+  {
+    "_id": "594eea80dd0808db8e46f33a",
+    "text": "Something to do",
+    "completed": true
+  },
+  {
+    "_id": "594eea89abf35ad2f394a0d5",
+    "text": "Something to do",
+    "completed": true
+  }
+]
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+Todos count: 13
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git init
+Initialized empty Git repository in C:/Users/MohammadHomam/Desktop/Udemy/Node.js/node-todo-api/.git/
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        node_modules/
+        package.json
+        playground/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        package.json
+        playground/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m 'Init commit'
+error: pathspec 'commit'' did not match any file(s) known to git.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m 'Init commit'
+error: pathspec 'commit'' did not match any file(s) known to git.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Init commit"
+[master (root-commit) 76c9c1f] Init commit
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+ 3 files changed, 75 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 package.json
+ create mode 100644 playground/mongodb-connect.js
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git remote add origin https://github.com/mharjomandi/node-todo-api.git
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push -u origin master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.07 KiB | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/mharjomandi/node-todo-api.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+Todos count: 14
+CommandResult {
+  result: { n: 7, ok: 1 },
+  connection:
+   Connection {
+     domain: null,
+     _events:
+      { error: [Object],
+        close: [Object],
+        timeout: [Object],
+        parseError: [Object] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     options:
+      { host: 'localhost',
+        port: 27017,
+        size: 5,
+        connectionTimeout: 30000,
+        socketTimeout: 360000,
+        keepAlive: true,
+        keepAliveInitialDelay: 300000,
+        noDelay: true,
+        ssl: false,
+        checkServerIdentity: true,
+        ca: null,
+        crl: null,
+        cert: null,
+        key: null,
+        passPhrase: null,
+        rejectUnauthorized: false,
+        promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false,
+        reconnect: true,
+        reconnectInterval: 1000,
+        reconnectTries: 30,
+        domainsEnabled: false,
+        disconnectHandler: [Object],
+        cursorFactory: [Object],
+        emitError: true,
+        socketOptions: {},
+        clientInfo: [Object],
+        readPreference: [Object],
+        promiseLibrary: [Function: Promise],
+        bson: BSON {} },
+     id: 0,
+     logger: Logger { className: 'Connection' },
+     bson: BSON {},
+     tag: undefined,
+     messageHandler: [Function],
+     maxBsonMessageSize: 67108864,
+     port: 27017,
+     host: 'localhost',
+     family: 4,
+     keepAlive: true,
+     keepAliveInitialDelay: 300000,
+     noDelay: true,
+     connectionTimeout: 30000,
+     socketTimeout: 360000,
+     destroyed: false,
+     domainSocket: false,
+     singleBufferSerializtion: true,
+     serializationFunction: 'toBinUnified',
+     ca: null,
+     crl: null,
+     cert: null,
+     key: null,
+     passphrase: null,
+     ssl: false,
+     rejectUnauthorized: false,
+     checkServerIdentity: true,
+     responseOptions:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     flushing: false,
+     queue: [],
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: 'localhost',
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: false,
+        destroyed: false,
+        _bytesDispatched: 621,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        _idleTimeout: 360000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 394,
+        read: [Function],
+        _consuming: true },
+     writeStream: null,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c',
+     workItems: [],
+     buffer: null,
+     sizeOfMessage: 0,
+     bytesRead: 0,
+     stubBuffer: null },
+  message:
+   Response {
+     parsed: true,
+     index: 60,
+     raw: <Buffer 3c 00 00 00 f3 04 00 00 04 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 18 00 00 00 10 6e 00 07 00 00 00 01 6f 6b ... >,
+     data: <Buffer 3c 00 00 00 f3 04 00 00 04 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 18 00 00 00 10 6e 00 07 00 00 00 01 6f 6b ... >,
+     bson: BSON {},
+     opts:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     length: 60,
+     requestId: 1267,
+     responseTo: 4,
+     responseFlags: 8,
+     cursorId: Long { _bsontype: 'Long', low_: 0, high_: 0 },
+     startingFrom: 0,
+     numberReturned: 1,
+     documents: [ [Object] ],
+     cursorNotFound: false,
+     queryFailure: false,
+     shardConfigStale: false,
+     awaitCapable: true,
+     promoteLongs: true,
+     promoteValues: true,
+     promoteBuffers: false,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c' },
+  deletedCount: 7 }
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+Todos count: 8
+CommandResult {
+  result: { n: 2, ok: 1 },
+  connection:
+   Connection {
+     domain: null,
+     _events:
+      { error: [Object],
+        close: [Object],
+        timeout: [Object],
+        parseError: [Object] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     options:
+      { host: 'localhost',
+        port: 27017,
+        size: 5,
+        connectionTimeout: 30000,
+        socketTimeout: 360000,
+        keepAlive: true,
+        keepAliveInitialDelay: 300000,
+        noDelay: true,
+        ssl: false,
+        checkServerIdentity: true,
+        ca: null,
+        crl: null,
+        cert: null,
+        key: null,
+        passPhrase: null,
+        rejectUnauthorized: false,
+        promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false,
+        reconnect: true,
+        reconnectInterval: 1000,
+        reconnectTries: 30,
+        domainsEnabled: false,
+        disconnectHandler: [Object],
+        cursorFactory: [Object],
+        emitError: true,
+        socketOptions: {},
+        clientInfo: [Object],
+        readPreference: [Object],
+        promiseLibrary: [Function: Promise],
+        bson: BSON {} },
+     id: 0,
+     logger: Logger { className: 'Connection' },
+     bson: BSON {},
+     tag: undefined,
+     messageHandler: [Function],
+     maxBsonMessageSize: 67108864,
+     port: 27017,
+     host: 'localhost',
+     family: 4,
+     keepAlive: true,
+     keepAliveInitialDelay: 300000,
+     noDelay: true,
+     connectionTimeout: 30000,
+     socketTimeout: 360000,
+     destroyed: false,
+     domainSocket: false,
+     singleBufferSerializtion: true,
+     serializationFunction: 'toBinUnified',
+     ca: null,
+     crl: null,
+     cert: null,
+     key: null,
+     passphrase: null,
+     ssl: false,
+     rejectUnauthorized: false,
+     checkServerIdentity: true,
+     responseOptions:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     flushing: false,
+     queue: [],
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: 'localhost',
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: false,
+        destroyed: false,
+        _bytesDispatched: 621,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        _idleTimeout: 360000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 393,
+        read: [Function],
+        _consuming: true },
+     writeStream: null,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c',
+     workItems: [],
+     buffer: null,
+     sizeOfMessage: 0,
+     bytesRead: 0,
+     stubBuffer: null },
+  message:
+   Response {
+     parsed: true,
+     index: 60,
+     raw: <Buffer 3c 00 00 00 fe 04 00 00 04 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 18 00 00 00 10 6e 00 02 00 00 00 01 6f 6b ... >,
+     data: <Buffer 3c 00 00 00 fe 04 00 00 04 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 18 00 00 00 10 6e 00 02 00 00 00 01 6f 6b ... >,
+     bson: BSON {},
+     opts:
+      { promoteLongs: true,
+        promoteValues: true,
+        promoteBuffers: false },
+     length: 60,
+     requestId: 1278,
+     responseTo: 4,
+     responseFlags: 8,
+     cursorId: Long { _bsontype: 'Long', low_: 0, high_: 0 },
+     startingFrom: 0,
+     numberReturned: 1,
+     documents: [ [Object] ],
+     cursorNotFound: false,
+     queryFailure: false,
+     shardConfigStale: false,
+     awaitCapable: true,
+     promoteLongs: true,
+     promoteValues: true,
+     promoteBuffers: false,
+     hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c' },
+  deletedCount: 2 }
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongodb\lib\mongo_client.js:427
+          throw err
+          ^
+
+ReferenceError: ObjectId is not defined
+    at MongoClient.connect (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\playground\mongodb-connect.js:102:14)
+    at connectCallback (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongodb\lib\mongo_client.js:505:5)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongodb\lib\mongo_client.js:424:11
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongodb\lib\mongo_client.js:427
+          throw err
+          ^
+
+ReferenceError: ObjectID is not defined
+    at MongoClient.connect (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\playground\mongodb-connect.js:102:14)
+    at connectCallback (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongodb\lib\mongo_client.js:505:5)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mongodb\lib\mongo_client.js:424:11
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+Todos count: 9
+{ lastErrorObject: { updatedExisting: false, n: 0 },
+  value: null,
+  ok: 1 }
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+Todos count: 10
+{ lastErrorObject: { updatedExisting: true, n: 1 },
+  value:
+   { _id: 594ee4df63c3bcfb77721254,
+     text: 'Something to do',
+     completed: false,
+     name: 'Homam',
+     age: 1 },
+  ok: 1 }
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/mongodb-connect.js
+Connected to MongoDB server
+Todos count: 11
+{ lastErrorObject: { updatedExisting: true, n: 1 },
+  value:
+   { _id: 594ee4df63c3bcfb77721254,
+     text: 'lll',
+     completed: false,
+     name: 'Homam123',
+     age: 2 },
+  ok: 1 }
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>
