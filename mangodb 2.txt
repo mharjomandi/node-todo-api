@@ -1,0 +1,1819 @@
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:1:77)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm i express body-parser --save
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
++-- body-parser@1.17.2
+| +-- bytes@2.4.0
+| +-- content-type@1.0.2
+| +-- debug@2.6.7
+| +-- depd@1.1.0
+| +-- http-errors@1.6.1
+| +-- iconv-lite@0.4.15
+| +-- on-finished@2.3.0
+| | `-- ee-first@1.1.1
+| +-- qs@6.4.0
+| +-- raw-body@2.2.0
+| | `-- unpipe@1.0.0
+| `-- type-is@1.6.15
+|   +-- media-typer@0.3.0
+|   `-- mime-types@2.1.15
+|     `-- mime-db@1.27.0
+`-- express@4.15.3
+  +-- accepts@1.3.3
+  | `-- negotiator@0.6.1
+  +-- array-flatten@1.1.1
+  +-- content-disposition@0.5.2
+  +-- cookie@0.3.1
+  +-- cookie-signature@1.0.6
+  +-- debug@2.6.7
+  +-- encodeurl@1.0.1
+  +-- escape-html@1.0.3
+  +-- etag@1.8.0
+  +-- finalhandler@1.0.3
+  | `-- debug@2.6.7
+  +-- fresh@0.5.0
+  +-- merge-descriptors@1.0.1
+  +-- methods@1.1.2
+  +-- parseurl@1.3.1
+  +-- path-to-regexp@0.1.7
+  +-- proxy-addr@1.1.4
+  | +-- forwarded@0.1.0
+  | `-- ipaddr.js@1.3.0
+  +-- range-parser@1.2.0
+  +-- send@0.15.3
+  | +-- debug@2.6.7
+  | +-- destroy@1.0.4
+  | `-- mime@1.3.4
+  +-- serve-static@1.12.3
+  +-- setprototypeof@1.0.3
+  +-- statuses@1.3.1
+  +-- utils-merge@1.0.0
+  `-- vary@1.1.1
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:266472) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+SyntaxError: Unexpected token t in JSON at position 3
+    at Object.parse (native)
+    at parse (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\body-parser\lib\types\json.js:88:17)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\body-parser\lib\read.js:116:18
+    at invokeCallback (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\raw-body\index.js:262:16)
+    at done (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\raw-body\index.js:251:7)
+    at IncomingMessage.onEnd (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\raw-body\index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:266876) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+SyntaxError: Unexpected token t in JSON at position 3
+    at Object.parse (native)
+    at parse (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\body-parser\lib\types\json.js:88:17)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\body-parser\lib\read.js:116:18
+    at invokeCallback (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\raw-body\index.js:262:16)
+    at done (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\raw-body\index.js:251:7)
+    at IncomingMessage.onEnd (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\raw-body\index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+request body: Hello Homam
+request body:
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   package.json
+        modified:   playground/mongodb-connect.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        mangodb.txt
+        server 1.txt
+        server/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git .add
+git: '.add' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/db/mongoose.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/todo.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   mangodb.txt
+        modified:   package.json
+        modified:   playground/mongodb-connect.js
+        new file:   server 1.txt
+        new file:   server/db/mongoose.js
+        new file:   server/models/todo.js
+        new file:   server/models/user.js
+        new file:   server/server.js
+        new file:   server/server_prep
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m 'Add POST /todos and refactor mongoose'
+fatal: /todos: '/todos' is outside repository
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m 'Add POST todos and refactor mongoose'
+error: pathspec 'POST' did not match any file(s) known to git.
+error: pathspec 'todos' did not match any file(s) known to git.
+error: pathspec 'and' did not match any file(s) known to git.
+error: pathspec 'refactor' did not match any file(s) known to git.
+error: pathspec 'mongoose'' did not match any file(s) known to git.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Add POST todos and refactor mongoose"
+[master warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+d4901cc] Add POST todos and refactor mongoose
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/db/mongoose.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/todo.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 9 files changed, 1278 insertions(+), 2 deletions(-)
+ create mode 100644 mangodb.txt
+ create mode 100644 server 1.txt
+ create mode 100644 server/db/mongoose.js
+ create mode 100644 server/models/todo.js
+ create mode 100644 server/models/user.js
+ create mode 100644 server/server.js
+ create mode 100644 server/server_prep
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (15/15), 8.88 KiB | 0 bytes/s, done.
+Total 15 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   76c9c1f..d4901cc  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm i expect mocha nodeman supertest --save-dev
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
++-- expect@1.20.2
+| +-- define-properties@1.1.2
+| | `-- foreach@2.0.5
+| +-- has@1.0.1
+| | `-- function-bind@1.1.0
+| +-- is-equal@1.5.5
+| | +-- is-arrow-function@2.0.3
+| | +-- is-boolean-object@1.0.0
+| | +-- is-callable@1.1.3
+| | +-- is-date-object@1.0.1
+| | +-- is-generator-function@1.0.6
+| | +-- is-number-object@1.0.3
+| | +-- is-string@1.0.4
+| | +-- is-symbol@1.0.1
+| | `-- object.entries@1.0.4
+| |   `-- es-abstract@1.7.0
+| |     `-- es-to-primitive@1.1.1
+| +-- is-regex@1.0.4
+| +-- object-inspect@1.2.2
+| +-- object-keys@1.0.11
+| `-- tmatch@2.0.1
++-- mocha@3.4.2
+| +-- browser-stdout@1.3.0
+| +-- commander@2.9.0
+| | `-- graceful-readlink@1.0.1
+| +-- debug@2.6.0
+| | `-- ms@0.7.2
+| +-- diff@3.2.0
+| +-- escape-string-regexp@1.0.5
+| +-- glob@7.1.1
+| | +-- fs.realpath@1.0.0
+| | +-- inflight@1.0.6
+| | | `-- wrappy@1.0.2
+| | +-- minimatch@3.0.4
+| | | `-- brace-expansion@1.1.8
+| | |   +-- balanced-match@1.0.0
+| | |   `-- concat-map@0.0.1
+| | +-- once@1.4.0
+| | `-- path-is-absolute@1.0.1
+| +-- growl@1.9.2
+| +-- json3@3.3.2
+| +-- lodash.create@3.1.1
+| | +-- lodash._baseassign@3.2.0
+| | | +-- lodash._basecopy@3.0.1
+| | | `-- lodash.keys@3.1.2
+| | |   +-- lodash._getnative@3.9.1
+| | |   +-- lodash.isarguments@3.1.0
+| | |   `-- lodash.isarray@3.0.4
+| | +-- lodash._basecreate@3.0.3
+| | `-- lodash._isiterateecall@3.0.9
+| +-- mkdirp@0.5.1
+| | `-- minimist@0.0.8
+| `-- supports-color@3.1.2
+|   `-- has-flag@1.0.0
++-- nodeman@1.1.2
+| `-- colors@1.1.2
+`-- supertest@3.0.0
+  `-- superagent@3.5.2
+    +-- component-emitter@1.2.1
+    +-- cookiejar@2.1.1
+    +-- extend@3.0.1
+    +-- form-data@2.2.0
+    | +-- asynckit@0.4.0
+    | `-- combined-stream@1.0.5
+    |   `-- delayed-stream@1.0.0
+    `-- formidable@1.1.1
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec 'npm test'
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `'npm test'`
+''npm' is not recognized as an internal or external command,
+operable program or batch file.
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec 'npm test'
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `'npm test'`
+''npm' is not recognized as an internal or external command,
+operable program or batch file.
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `'npm test'`
+''npm' is not recognized as an internal or external command,
+operable program or batch file.
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec npm test
+
+[nodemon] 1.11.0
+
+[nodemon] watching: *.* any time, enter `rs`
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\tests\server.test.js:54
+});
+  ^
+SyntaxError: Unexpected end of input
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mocha\lib\mocha.js:230:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mocha\lib\mocha.js:227:14)
+    at Mocha.run (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mocha\lib\mocha.js:495:10)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mocha\bin\_mocha:469:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+npm ERR! Test failed.  See above for more details.
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec npm test
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:283264) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text
+    v should create a new todo (71ms)
+
+
+  1 passing (106ms)
+
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:281856) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (84ms)
+
+
+  1 passing (122ms)
+
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:283756) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (176ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+
+  2 passing (313ms)
+
+[nodemon] clean exit - waiting for changes before restart
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   package.json
+        modified:   server/server.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        server/tests/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m 'Test POST todos route'
+error: pathspec 'POST' did not match any file(s) known to git.
+error: pathspec 'todos' did not match any file(s) known to git.
+error: pathspec 'route'' did not match any file(s) known to git.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Everything up-to-date
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push --force
+Everything up-to-date
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   package.json
+        modified:   server/server.js
+        new file:   server/tests/server.test.js
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm server/server.js
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, bin, bugs, c, cache, completion, config,
+    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,
+    help, help-search, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, tag, team, test, tst, un, uninstall,
+    unpublish, unstar, up, update, v, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\MohammadHomam\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@3.10.10 C:\Program Files\nodejs\node_modules\npm
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server/server.js
+(node:281100) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+request body: smething todo from Postman
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   package.json
+        modified:   server/server.js
+        new file:   server/tests/server.test.js
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/server.js
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m 'GET /todos route'
+fatal: Paths with -a does not make sense.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "GET /todos route"
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+d072b2d] GET /todos route
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+ 3 files changed, 71 insertions(+), 1 deletion(-)
+ create mode 100644 server/tests/server.test.js
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.14 KiB | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   d4901cc..d072b2d  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm server/server.js
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, bin, bugs, c, cache, completion, config,
+    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,
+    help, help-search, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, tag, team, test, tst, un, uninstall,
+    unpublish, unstar, up, update, v, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\MohammadHomam\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@3.10.10 C:\Program Files\nodejs\node_modules\npm
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec npm test
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:284888) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    1) should create a new todo
+request body: undefined
+    2) should not create todo with invalid body data
+
+
+  0 passing (157ms)
+  2 failing
+
+  1) POST /todos should create a new todo:
+     Error: Expected 3 to be 1
+      at assert (node_modules\expect\lib\assert.js:29:9)
+      at Expectation.toBe (node_modules\expect\lib\Expectation.js:66:28)
+      at Todo.find.then (server\tests\server.test.js:44:32)
+      at process._tickCallback (internal/process/next_tick.js:109:7)
+
+  2) POST /todos should not create todo with invalid body data:
+     Error: Expected 2 to be 0
+      at assert (node_modules\expect\lib\assert.js:29:9)
+      at Expectation.toBe (node_modules\expect\lib\Expectation.js:66:28)
+      at Todo.find.then (server\tests\server.test.js:62:32)
+      at process._tickCallback (internal/process/next_tick.js:109:7)
+
+
+
+npm ERR! Test failed.  See above for more details.
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:284884) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (58ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+
+  2 passing (135ms)
+
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:285428) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (55ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+
+  3 passing (135ms)
+
+[nodemon] clean exit - waiting for changes before restart
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "ADD tests to GET /todos route"
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+c04f02d] ADD tests to GET /todos route
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+ 1 file changed, 32 insertions(+), 3 deletions(-)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 691 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   d072b2d..c04f02d  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>nodemon playground/mongoose-queries.js
+[nodemon] 1.11.0
+
+[nodemon] watching: *.* any time, enter `rs`
+[nodemon] starting `node playground/mongoose-queries.js`
+(node:284744) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Todos [ { _id: 595068e561c9235af8383979,
+    __v: 0,
+    text: 'Second test todo',
+    completedAt: null,
+    completed: false } ]
+Unable to find user
+Todo { _id: 595068e561c9235af8383979,
+  __v: 0,
+  text: 'Second test todo',
+  completedAt: null,
+  completed: false }
+[nodemon] restarting due to changes...
+[nodemon] starting `node playground/mongoose-queries.js`
+(node:278516) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Todos [ { _id: 595068e561c9235af8383979,
+    __v: 0,
+    text: 'Second test todo',
+    completedAt: null,
+    completed: false } ]
+Unable to find user
+Todo { _id: 595068e561c9235af8383979,
+  __v: 0,
+  text: 'Second test todo',
+  completedAt: null,
+  completed: false }
+[nodemon] restarting due to changes...
+[nodemon] starting `node playground/mongoose-queries.js`
+(node:265920) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Todos []
+Unable to find user
+Todo null
+[nodemon] restarting due to changes...
+[nodemon] starting `node playground/mongoose-queries.js`
+(node:282088) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Todos [ { _id: 595068e561c9235af8383979,
+    __v: 0,
+    text: 'Second test todo',
+    completedAt: null,
+    completed: false } ]
+Todo { _id: 595068e561c9235af8383979,
+  __v: 0,
+  text: 'Second test todo',
+  completedAt: null,
+  completed: false }
+Unable to find user
+[nodemon] restarting due to changes...
+[nodemon] starting `node playground/mongoose-queries.js`
+(node:285472) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Todos [ { _id: 595068e561c9235af8383979,
+    __v: 0,
+    text: 'Second test todo',
+    completedAt: null,
+    completed: false } ]
+Todo { _id: 595068e561c9235af8383979,
+  __v: 0,
+  text: 'Second test todo',
+  completedAt: null,
+  completed: false }
+Todo By Id { _id: 595068e561c9235af8383979,
+  __v: 0,
+  text: 'Second test todo',
+  completedAt: null,
+  completed: false }
+Unable to find user
+[nodemon] restarting due to changes...
+[nodemon] starting `node playground/mongoose-queries.js`
+(node:280396) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Todos []
+Todo null
+Id not found
+Unable to find user
+[nodemon] restarting due to changes...
+[nodemon] starting `node playground/mongoose-queries.js`
+(node:284144) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Todos [ { _id: 595068e561c9235af8383979,
+    __v: 0,
+    text: 'Second test todo',
+    completedAt: null,
+    completed: false } ]
+Todo { _id: 595068e561c9235af8383979,
+  __v: 0,
+  text: 'Second test todo',
+  completedAt: null,
+  completed: false }
+Todo By Id { _id: 595068e561c9235af8383979,
+  __v: 0,
+  text: 'Second test todo',
+  completedAt: null,
+  completed: false }
+Unable to find user
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        playground/mongoose-queries.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in playground/mongoose-queries.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "ADD queries playground file"
+[master 05f464f] ADD queries playground file
+warning: LF will be replaced by CRLF in playground/mongoose-queries.js.
+The file will have its original line endings in your working directory.
+ 1 file changed, 40 insertions(+)
+ create mode 100644 playground/mongoose-queries.js
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 729 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mharjomandi/node-todo-api.git
+   c04f02d..05f464f  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec npm test
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:47
+});
+  ^
+SyntaxError: Unexpected end of input
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\tests\server.test.js:4:15)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mocha\lib\mocha.js:230:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mocha\lib\mocha.js:227:14)
+    at Mocha.run (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mocha\lib\mocha.js:495:10)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\mocha\bin\_mocha:469:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+npm ERR! Test failed.  See above for more details.
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:284472) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (56ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+
+  3 passing (140ms)
+
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:282948) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (72ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+
+  3 passing (186ms)
+
+[nodemon] clean exit - waiting for changes before restart
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec npm test
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:279868) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (58ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+
+  3 passing (148ms)
+
+[nodemon] clean exit - waiting for changes before restart
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>nodemon server/server.js
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node server/server.js`
+(node:286348) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+ReferenceError: ObjectID is not defined
+    at app.get (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:36:8)
+    at Layer.handle [as handle_request] (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\body-parser\lib\types\json.js:103:7)
+    at Layer.handle [as handle_request] (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\node_modules\express\lib\router\index.js:275:10)
+[nodemon] restarting due to changes...
+[nodemon] starting `node server/server.js`
+(node:286704) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>nodemon server/server.js
+[nodemon] 1.11.0
+
+[nodemon] watching: *.* any time, enter `rs`
+[nodemon] starting `node server/server.js`
+(node:275852) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+^C^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/server.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "ADD GET /todos:id"
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+32c1e68] ADD GET /todos:id
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 1 file changed, 19 insertions(+)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 565 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   05f464f..32c1e68  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec npm test
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:295928) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (280ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    1) should return todo doc
+
+
+  3 passing (409ms)
+  1 failing
+
+  1) GET /todos/:id should return todo doc:
+     ReferenceError: todo is not defined
+      at Context.it (server\tests\server.test.js:90:22)
+
+
+
+npm ERR! Test failed.  See above for more details.
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:289576) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (53ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    1) should return todo doc
+
+
+  3 passing (141ms)
+  1 failing
+
+  1) GET /todos/:id should return todo doc:
+     ReferenceError: todo is not defined
+      at Context.it (server\tests\server.test.js:90:22)
+
+
+
+npm ERR! Test failed.  See above for more details.
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:295228) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (77ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+
+
+  4 passing (185ms)
+
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:293124) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port 3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (59ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+
+  6 passing (168ms)
+
+[nodemon] clean exit - waiting for changes before restart
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/tests/server.test.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "ADD test cases for GET todos:id"
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+284da00] ADD test cases for GET todos:id
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+ 1 file changed, 32 insertions(+)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 705 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   32c1e68..284da00  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node -v
+v6.10.3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>heroku create
+'MySQL' is not recognized as an internal or external command,
+operable program or batch file.
+'MySQL' is not recognized as an internal or external command,
+operable program or batch file.
+WARNING: This is the legacy Heroku CLI with limited functionality. Please install the latest CLI.
+WARNING: Installation instructions are at https://cli.heroku.com
+Creating app... done, secure-sands-49462
+ !    ENOENT: spawn git ENOENT
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>heroku addons:create mongolab:sandbox
+'MySQL' is not recognized as an internal or external command,
+operable program or batch file.
+'MySQL' is not recognized as an internal or external command,
+operable program or batch file.
+WARNING: This is the legacy Heroku CLI with limited functionality. Please install the latest CLI.
+WARNING: Installation instructions are at https://cli.heroku.com
+ !    Error: No app specified
+ !    Usage: heroku addons:create SERVICE:PLAN --app APP
+ !    We don't know which app to run this on.
+ !    Run this command from inside an app folder or specify which app to use with --app APP
+ !
+ !    https://devcenter.heroku.com/articles/using-the-cli#app-commands
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   package.json
+        modified:   server/db/mongoose.js
+        modified:   server/server.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "HEROKU for GET /todos:id"
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/db/mongoose.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/db/mongoose.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+859ec1a] HEROKU for GET /todos:id
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/db/mongoose.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 3 files changed, 8 insertions(+), 3 deletions(-)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 762 bytes | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   284da00..859ec1a  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   package.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "HEROKU Package"
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+1e98482] HEROKU Package
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 405 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   859ec1a..1e98482  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>nodemon server/server.js
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node server/server.js`
+(node:278644) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+request body: smething todo from Postman
+[nodemon] restarting due to changes...
+[nodemon] starting `node server/server.js`
+(node:296844) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server/server.js`
+(node:266020) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground\mongoose-remove.js
+(node:288008) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+null
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground\mongoose-remove.js
+(node:284844) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+{ _id: 59511e315a860a790856d6d4,
+  __v: 0,
+  text: 'First test todo',
+  completedAt: null,
+  completed: false }
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>nodemon server/server.js
+[nodemon] 1.11.0
+
+[nodemon] watching: *.* any time, enter `rs`
+[nodemon] starting `node server/server.js`
+(node:295764) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/server.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        playground/mongoose-remove.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "DELETE GET /todos:id"
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+c6d57b9] DELETE GET /todos:id
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 1 file changed, 18 insertions(+)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 391 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   1e98482..c6d57b9  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec 'npm test'
+
+[nodemon] 1.11.0
+
+[nodemon] watching: *.* any time, enter `rs`
+[nodemon] starting `'npm test'`
+''npm' is not recognized as an internal or external command,
+operable program or batch file.
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec 'npm test'
+
+[nodemon] 1.11.0
+
+[nodemon] watching: *.* any time, enter `rs`
+[nodemon] starting `'npm test'`
+''npm' is not recognized as an internal or external command,
+operable program or batch file.
+[nodemon] app crashed - waiting for file changes before starting...
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+npm ERR! Windows_NT 10.0.15063
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "test-watch"
+npm ERR! node v6.10.3
+npm ERR! npm  v3.10.10
+npm ERR! file C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\package.json
+npm ERR! code EJSONPARSE
+
+npm ERR! Failed to parse json
+npm ERR! Unexpected token 'n' at 9:37
+npm ERR!     "test-watch": "nodemon --exec ""npm test"""
+npm ERR!                                     ^
+npm ERR! File: C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\package.json
+npm ERR! Failed to parse package.json data.
+npm ERR! package.json must be actual JSON, not just JavaScript.
+npm ERR!
+npm ERR! This is not a bug in npm.
+npm ERR! Tell the package author to fix their package.json file. JSON.parse
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\npm-debug.log
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec npm test
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:283072) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (58ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+
+  9 passing (262ms)
+
+[nodemon] clean exit - waiting for changes before restart
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   package.json
+        modified:   server/server.js
+        modified:   server/tests/server.test.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        playground/mongoose-remove.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "DELETE test cases"
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+23f8ad8] DELETE test cases
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+ 3 files changed, 41 insertions(+), 2 deletions(-)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 730 bytes | 0 bytes/s, done.
+Total 7 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   c6d57b9..23f8ad8  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm i lodash --save
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+`-- lodash@4.17.4
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>nodemon server/server.js
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node server/server.js`
+(node:295224) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   package.json
+        modified:   server/server.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        playground/mongoose-remove.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "PATCH /todos:id"
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+d51b942] PATCH /todos:id
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 2 files changed, 28 insertions(+)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 680 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   23f8ad8..d51b942  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm run test-watch
+
+> node-todo-api@1.0.0 test-watch C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> nodemon --exec npm test
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `npm test`
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> mocha server/**/*.test.js
+
+
+
+(node:290788) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (126ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+
+  11 passing (500ms)
+
+[nodemon] clean exit - waiting for changes before restart
+Terminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/tests/server.test.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        playground/mongoose-remove.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "PATCH /todos:id Test Cases"
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+14f0899] PATCH /todos:id Test Cases
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+ 1 file changed, 43 insertions(+), 1 deletion(-)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 701 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   d51b942..14f0899  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>nodemon server/server.js
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node server/server.js`
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:8
+if (env ==== 'devellpment'){
+           ^
+SyntaxError: Unexpected token =
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+[nodemon] app crashed - waiting for file changes before starting...
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>nodemon server/server.js
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node server/server.js`
+env *********** devellpment
+(node:292496) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:291968) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (63ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+
+  11 passing (357ms)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   package.json
+        modified:   server/db/mongoose.js
+        modified:   server/server.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        playground/mongoose-remove.js
+        server/config/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "TEST DEV PROD ENV"
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/db/mongoose.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+[master warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/db/mongoose.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+c978b41] TEST DEV PROD ENV
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/db/mongoose.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 3 files changed, 9 insertions(+), 2 deletions(-)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 799 bytes | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   14f0899..c978b41  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        playground/mongoose-remove.js
+        server/config/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in playground/mongoose-remove.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -a -m "TEST DEV PROD ENV"
+[master 3501a5c] TEST DEV PROD ENV
+warning: LF will be replaced by CRLF in playground/mongoose-remove.js.
+The file will have its original line endings in your working directory.
+ 2 files changed, 34 insertions(+)
+ create mode 100644 playground/mongoose-remove.js
+ create mode 100644 server/config/config.js
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.02 KiB | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   c978b41..3501a5c  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>
