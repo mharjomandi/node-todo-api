@@ -12,8 +12,8 @@ var UserSchema = new mongoose.Schema({
     minlength: 1,
     unique: true,
     validate: {
-     validator: validator.isEmail,
-     message: '{VALUE} is not a valid email'
+      validator: validator.isEmail,
+      message: '{VALUE} is not a valid email'
     }
   },
   password: {
@@ -24,11 +24,11 @@ var UserSchema = new mongoose.Schema({
   tokens: [{
     access: {
       type: String,
-      require: true
+      required: true
     },
     token: {
       type: String,
-      require: true
+      required: true
     }
   }]
 });
@@ -40,11 +40,10 @@ UserSchema.methods.toJSON = function () {
   return _.pick(userObject, ['_id', 'email']);
 };
 
-
-UserSchema.methods.generateAuthToken = function (){
+UserSchema.methods.generateAuthToken = function () {
   var user = this;
   var access = 'auth';
-  var token = jwt.sign({_id: user._id.toHexString(), access},'abc123').toString();
+  var token = jwt.sign({_id: user._id.toHexString(), access}, 'abc123').toString();
 
   user.tokens.push({access, token});
 
@@ -52,7 +51,6 @@ UserSchema.methods.generateAuthToken = function (){
     return token;
   });
 };
-
 
 UserSchema.statics.findByToken = function (token) {
   var User = this;
@@ -73,6 +71,7 @@ UserSchema.statics.findByToken = function (token) {
 
 UserSchema.pre('save', function (next) {
   var user = this;
+
   if (user.isModified('password')) {
     bcrypt.genSalt(10, (err, salt) => {
       bcrypt.hash(user.password, salt, (err, hash) => {
@@ -80,8 +79,8 @@ UserSchema.pre('save', function (next) {
         next();
       });
     });
-  }else {
-
+  } else {
+    next();
   }
 });
 
