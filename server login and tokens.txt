@@ -1,0 +1,1735 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm install validator --save
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+`-- validator@7.1.0
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\models\user.js:13
+      validator.isEMail,
+               ^
+SyntaxError: Unexpected token .
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:11:14)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\models\user.js:13
+      validator.isEmail,
+               ^
+SyntaxError: Unexpected token .
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:11:14)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:17796) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:17796) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:18144) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:18144) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm i crypto --save
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+`-- crypto@0.0.3
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hash.js
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\playground\hash.js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module 'crypto-js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\playground\hashing.js:1:80)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module 'crypto-js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\playground\hashing.js:1:80)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\playground\hashing.js:4
+var hash = SHA256(message).toString();
+           ^
+
+TypeError: SHA256 is not a function
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\playground\hashing.js:4:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module 'crypto-js/sha256'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\playground\hashing.js:1:78)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm install crypto-js
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+`-- crypto-js@3.1.9-1
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+Message: I am user number 3
+Hash: 9da4d19e100809d42da806c2b7df5cf37e72623d42f1669eb112e23f5c9d45a3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+Data was not changed
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+Data was changed. Do not trust!
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm i jsonwebtoken --save
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+`-- jsonwebtoken@7.4.1
+  +-- joi@6.10.1
+  | +-- hoek@2.16.3
+  | +-- isemail@1.2.0
+  | +-- moment@2.18.1
+  | `-- topo@1.1.0
+  +-- jws@3.1.4
+  | +-- base64url@2.0.0
+  | `-- jwa@1.1.5
+  |   +-- buffer-equal-constant-time@1.0.1
+  |   `-- ecdsa-sig-formatter@1.0.9
+  +-- lodash.once@4.1.1
+  `-- xtend@4.0.1
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlhdCI6MTQ5ODUzOTUzMn0.GzYb-w7_CyoDHY7GxVSubT7uZ8-Ktg0xZtVaUI2vjso
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlhdCI6MTQ5ODUzOTcyMX0.up3Ue9-pAqp4rb4K4iiyZq82e4h2up0kbiUHWxYbVMY
+decoded { id: 10, iat: 1498539721 }
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:110
+    res..header('x-auth',token).send(user);
+        ^
+SyntaxError: Unexpected token .
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:111
+  }). (e) => {
+      ^
+SyntaxError: Unexpected token (
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:106
+  user.save().then((user) => {
+      ^
+SyntaxError: Unexpected token .
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\models\user.js:5
+var UserSchema = new mangoose.Schema({
+                     ^
+
+ReferenceError: mangoose is not defined
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\models\user.js:5:22)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:11:14)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:10204) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:10204) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:24328) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:24328) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   package.json
+        modified:   server/models/user.js
+        modified:   server/server.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        mangodb 2.txt
+        playground/hashing.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m 'Adding tokens and hashing'
+error: pathspec 'tokens' did not match any file(s) known to git.
+error: pathspec 'and' did not match any file(s) known to git.
+error: pathspec 'hashing'' did not match any file(s) known to git.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Everything up-to-date
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push --force
+Everything up-to-date
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   mangodb 2.txt
+        modified:   package.json
+        new file:   playground/hashing.js
+        modified:   server/models/user.js
+        modified:   server/server.js
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m 'Adding tokens and hashing'
+error: pathspec 'tokens' did not match any file(s) known to git.
+error: pathspec 'and' did not match any file(s) known to git.
+error: pathspec 'hashing'' did not match any file(s) known to git.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Adding tokens and hashing"
+[master warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+744b4cf] Adding tokens and hashing
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 5 files changed, 1925 insertions(+), 5 deletions(-)
+ create mode 100644 mangodb 2.txt
+ create mode 100644 playground/hashing.js
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 9.62 KiB | 0 bytes/s, done.
+Total 10 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   3501a5c..744b4cf  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:3844) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:3844) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:57888) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './middleware/authenticate'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:12:22)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './middleware/authenticate'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:12:22)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './middlewareauthenticate'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:12:22)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:390:7)
+    at startup (bootstrap_node.js:150:9)
+    at bootstrap_node.js:505:3
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:59324) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/models/user.js
+        modified:   server/server.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        server/middleware/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/middleware/authenticate.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m 'Add users authentication'
+error: pathspec 'users' did not match any file(s) known to git.
+error: pathspec 'authentication'' did not match any file(s) known to git.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Add users authentication"
+[master warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+283f51e] Add users authentication
+warning: LF will be replaced by CRLF in server/middleware/authenticate.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 3 files changed, 74 insertions(+)
+ create mode 100644 server/middleware/authenticate.js
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.39 KiB | 0 bytes/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   744b4cf..283f51e  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm bcryptjs --save
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, bin, bugs, c, cache, completion, config,
+    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,
+    help, help-search, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, tag, team, test, tst, un, uninstall,
+    unpublish, unstar, up, update, v, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\MohammadHomam\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@3.10.10 C:\Program Files\nodejs\node_modules\npm
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm i bcryptjs --save
+node-todo-api@1.0.0 C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+`-- bcryptjs@2.4.3
+
+npm WARN node-todo-api@1.0.0 No description
+npm WARN node-todo-api@1.0.0 No repository field.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+$2a$10$Tf2C.UGCt4WKVPpxvuXu9.NP6btgCaz3pyv44Ve2aotEXwKn5LJF.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+false
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+false
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+$2a$10$9JJHLHKEpK8hwNW.GPIY/uyXhDwbwHShyRhjGga9DP8f70jjCmnDy
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node playground/hashing.js
+$2a$10$XxJl0uJxVDHWVRNV.t4i6uiLu0Z/DDSqnzgdvvQMiSCZFlqgd.gJ2
+true
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\models\user.js:74
+UserSchema.pre('save') function (next) {
+                       ^^^^^^^^
+SyntaxError: Unexpected token function
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api\server\server.js:11:14)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:13636) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:13636) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:48788) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:48788) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:59080) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:59080) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   package.json
+        modified:   playground/hashing.js
+        modified:   server/models/user.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Hash user password"
+[master warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+50af330] Hash user password
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+ 3 files changed, 38 insertions(+), 7 deletions(-)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.19 KiB | 0 bytes/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   283f51e..50af330  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:62212) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (58ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+
+  11 passing (361ms)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:66128) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+request body: Test todo text cccc
+    v should create a new todo (51ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+
+  11 passing (252ms)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:63892) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:63892) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (48ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+
+  11 passing (3s)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:69104) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:69104) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (48ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+
+
+  12 passing (3s)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:69136) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:69136) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (48ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    1) should return user if authenticated
+
+
+  11 passing (3s)
+  1 failing
+
+  1) GET /users/me should return user if authenticated:
+     Error: Expected 'user1@yahoo.com1' to be 'user1@yahoo.com'
+      at assert (node_modules\expect\lib\assert.js:29:9)
+      at Expectation.toBe (node_modules\expect\lib\Expectation.js:66:28)
+      at request.get.set.expect.expect (server\tests\server.test.js:193:38)
+      at Test._assertFunction (node_modules\supertest\lib\test.js:281:11)
+      at Test.assert (node_modules\supertest\lib\test.js:171:18)
+      at Server.assert (node_modules\supertest\lib\test.js:131:12)
+      at emitCloseNT (net.js:1554:8)
+      at _combinedTickCallback (internal/process/next_tick.js:77:11)
+      at process._tickCallback (internal/process/next_tick.js:104:9)
+
+
+
+npm ERR! Test failed.  See above for more details.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:65556) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:65556) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (47ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+
+
+  12 passing (3s)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:68076) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:68076) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (68ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+
+  13 passing (4s)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:68880) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:68880) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (65ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    1) should create a user
+    v should return validation errors if request invalid
+    v should not create user if email in use (130ms)
+
+
+  15 passing (6s)
+  1 failing
+
+  1) POST /users should create a user:
+     Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves.
+
+
+
+
+npm ERR! Test failed.  See above for more details.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:65504) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:65504) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (51ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    1) should create a user
+    v should return validation errors if request invalid
+    v should not create user if email in use (106ms)
+
+
+  15 passing (6s)
+  1 failing
+
+  1) POST /users should create a user:
+     Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves.
+
+
+
+
+npm ERR! Test failed.  See above for more details.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:62736) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:62736) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (50ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    1) should create a user
+    v should return validation errors if request invalid
+    v should not create user if email in use (108ms)
+
+
+  15 passing (6s)
+  1 failing
+
+  1) POST /users should create a user:
+     Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves.
+
+
+
+
+npm ERR! Test failed.  See above for more details.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:64784) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:64784) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (48ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    1) should create a user
+    v should return validation errors if request invalid
+    v should not create user if email in use (106ms)
+
+
+  15 passing (6s)
+  1 failing
+
+  1) POST /users should create a user:
+     Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves.
+
+
+
+
+npm ERR! Test failed.  See above for more details.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:70792) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:70792) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (49ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    1) should create a user
+    v should return validation errors if request invalid
+    v should not create user if email in use (110ms)
+
+
+  15 passing (6s)
+  1 failing
+
+  1) POST /users should create a user:
+     Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves.
+
+
+
+
+npm ERR! Test failed.  See above for more details.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:70868) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:70868) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (51ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    1) should create a user
+    v should return validation errors if request invalid
+    v should not create user if email in use (110ms)
+
+
+  15 passing (6s)
+  1 failing
+
+  1) POST /users should create a user:
+     Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves.
+
+
+
+
+npm ERR! Test failed.  See above for more details.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:71368) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:71368) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (48ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    v should create a user (112ms)
+    v should return validation errors if request invalid
+    v should not create user if email in use (106ms)
+
+
+  16 passing (4s)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/models/user.js
+        modified:   server/tests/server.test.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        server/tests/seed/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Add tests for users"
+[master warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+b65ab50] Add tests for users
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+ 3 files changed, 137 insertions(+), 25 deletions(-)
+ create mode 100644 server/tests/seed/seed.js
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.68 KiB | 0 bytes/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   50af330..b65ab50  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:70704) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:70704) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/models/user.js
+        modified:   server/server.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Adding user login token"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   server/models/user.js
+        modified:   server/server.js
+
+no changes added to commit
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Adding user login token"
+[master warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+6b4a94b] Adding user login token
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 2 files changed, 34 insertions(+)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 880 bytes | 0 bytes/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   b65ab50..6b4a94b  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:70312) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:70312) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (48ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    v should create a user (111ms)
+    v should return validation errors if request invalid
+    v should not create user if email in use (107ms)
+
+  POST /users/login
+    v should login user and return auth token (150ms)
+    v should reject invalid login (104ms)
+
+
+  18 passing (5s)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/tests/server.test.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Add tests for user login"
+[master warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+b3126bb] Add tests for user login
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+ 1 file changed, 51 insertions(+)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+fatal: unable to access 'https://github.com/mharjomandi/node-todo-api.git/': Couldn't resolve host 'github.com'
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+fatal: unable to access 'https://github.com/mharjomandi/node-todo-api.git/': Couldn't resolve host 'github.com'
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 695 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   6b4a94b..b3126bb  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:74724) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:74724) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (48ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    v should create a user (111ms)
+    v should return validation errors if request invalid
+    v should not create user if email in use (108ms)
+
+  POST /users/login
+    v should login user and return auth token (114ms)
+    v should reject invalid login (108ms)
+
+
+  18 passing (5s)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:74300) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:74300) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>node server\server.js
+env *********** devellpment
+(node:64652) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+(node:64652) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+^C
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/models/user.js
+        modified:   server/server.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m 'LOGOUT Remove tokens'
+error: pathspec 'Remove' did not match any file(s) known to git.
+error: pathspec 'tokens'' did not match any file(s) known to git.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Everything up-to-date
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Add tests for user login"
+[master warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+5930675] Add tests for user login
+warning: LF will be replaced by CRLF in server/models/user.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in server/server.js.
+The file will have its original line endings in your working directory.
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 669 bytes | 0 bytes/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   b3126bb..5930675  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>npm test
+
+> node-todo-api@1.0.0 test C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api
+> export NODE_ENV=test || SET "NODE_ENV=test" && mocha server/**/*.test.js
+
+'export' is not recognized as an internal or external command,
+operable program or batch file.
+env *********** test
+
+
+(node:69960) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`
+Started on port  3000
+  POST /todos
+(node:69960) DeprecationWarning: Implicit async custom validators (custom validators that take 2 arguments) are deprecated in mongoose >= 4.9.0. See http://mongoosejs.com/docs/validation.html#async-custom-validators for more info.
+request body: Test todo text cccc
+    v should create a new todo (100ms)
+request body: undefined
+    v should not create todo with invalid body data
+
+  GET /todos
+    v should get all todos
+
+  GET /todos/:id
+    v should return todo doc
+    v should return 404 if todo not found
+    v should return 404 for non-object ids
+
+  DELETE /todos/:id
+    v should remove a todo
+    v should return 404 if todo not found
+    v should return 404 if object id is invalid
+
+  PATCH /todos/:id
+    v should update the todo
+    v should clear completedAt when todo is not completed
+
+  GET /users/me
+    v should return user if authenticated
+    v should return 401 if not authenticated
+
+  POST /users
+    v should create a user (155ms)
+    v should return validation errors if request invalid
+    v should not create user if email in use (142ms)
+
+  POST /users/login
+    v should login user and return auth token (160ms)
+    v should reject invalid login (119ms)
+
+  DELETE /users/me/token
+    v should remove auth token on logout
+
+
+  19 passing (6s)
+
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   server/tests/server.test.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git add .
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git commit -m "Adding test to logout"
+[master warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+21a5a1b] Adding test to logout
+warning: LF will be replaced by CRLF in server/tests/server.test.js.
+The file will have its original line endings in your working directory.
+ 1 file changed, 20 insertions(+)
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 514 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/mharjomandi/node-todo-api.git
+   5930675..21a5a1b  master -> master
+
+C:\Users\MohammadHomam\Desktop\Udemy\Node.js\node-todo-api>
